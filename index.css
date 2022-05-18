@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.stopwatch {
+  text-align: center;
+  margin: 10vh auto;
+}
+
+.display {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+button {
+  cursor: pointer;
+  text-transform: capitalize;
+}
